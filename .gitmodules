@@ -1,0 +1,16 @@
+[submodule "build/deps/SDL"]
+	path = build/deps/SDL
+	url = https://github.com/spurious/SDL-mirror.git
+	branch = release-2.0.9
+[submodule "build/deps/IDZPrecompiledOgg"]
+	path = build/deps/IDZPrecompiledOgg
+	url = https://github.com/iosdevzone/IDZPrecompiledOgg.git
+[submodule "build/deps/IDZPrecompiledVorbis"]
+	path = build/deps/IDZPrecompiledVorbis
+	url = https://github.com/iosdevzone/IDZPrecompiledVorbis.git
+[submodule "build/deps/turbojpeg"]
+	path = build/deps/turbojpeg
+	url = https://github.com/hjeffrey/turbojpeg.git
+[submodule "build/deps/hashlink"]
+	path = build/deps/hashlink
+	url = https://github.com/HaxeFoundation/hashlink.git

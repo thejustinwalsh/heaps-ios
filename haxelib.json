@@ -1,0 +1,15 @@
+{
+	"name" : "heaps-ios",
+	"url" : "http://heaps.io",
+	"license" : "BSD",
+    "description" : "The GPU Game Framework",
+    "version" : "1.0.0",
+	"releasenote" : "",
+	"contributors" : ["thejustinwalsh"],
+	"dependencies" : { 
+		"format" : "",
+		"heaps" : "",
+		"hlsdl" : "",
+		"hxbit" : ""
+	}
+}

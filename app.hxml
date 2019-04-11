@@ -1,0 +1,6 @@
+-debug 
+-lib heaps hlsdl
+-cp src
+-hl app.hl
+-main Base2D
+-D windowSize=320x568

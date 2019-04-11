@@ -1,0 +1,35 @@
+# Ignore compiled hashlink
+*.hl
+
+# Ignore SDL patch
+build/deps/SDL/include/SDL2/*
+
+# Ignore generated native code
+build/**/*.c
+build/**/*.h
+build/**/*.json
+!build/**/shims/*.c
+
+# Ignore Xcode
+xcuserdata/
+*.xcscmblueprint
+*.xccheckout
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+# Ignore generated content
+*.pak
+res/.tmp
+
+# Ignore dependencies 
+build/deps/**/*
+
+# Ignore OS files
+.DS_Store
