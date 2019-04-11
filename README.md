@@ -10,4 +10,4 @@ cd heaps-ios
 sh bootstrap.sh
 ```
 
-[![Build status](https://build.appcenter.ms/v0.1/apps/cedf572b-d4bb-4764-b3aa-49c5fc61a9b3/branches/master/badge)](https://appcenter.ms)
+[![Build status](https://build.appcenter.ms/v0.1/apps/dbf68658-84da-407c-9fcf-1f54fffe187d/branches/master/badge)](https://appcenter.ms)

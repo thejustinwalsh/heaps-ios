@@ -14,3 +14,6 @@
 [submodule "build/deps/hashlink"]
 	path = build/deps/hashlink
 	url = https://github.com/HaxeFoundation/hashlink.git
+[submodule "build/deps/heaps"]
+	path = build/deps/heaps
+	url = https://github.com/HeapsIO/heaps.git

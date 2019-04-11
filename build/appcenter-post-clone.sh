@@ -22,9 +22,6 @@ if [ ! -z "${APPCENTER_TRIGGER}" ]; then
     make all
     make install
     popd
-
-    echo "Installing Heaps"
-    git clone https://github.com/HeapsIO/heaps.git
     
     echo "Linking Haxelib Dependencies"
     haxelib dev heaps "${APPCENTER_SOURCE_DIRECTORY}/build/iOS/deps/heaps"
