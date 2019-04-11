@@ -4,7 +4,7 @@ mkdir ./src
 
 echo "Generating native code..."
 pushd src
-haxe -v --hl app.c -p ../../ -p ../../src -L heaps -L hlsdl --main Base2D
+haxe -v --hl HeapsApp.c -p ../../ -p ../../src -L heaps -L hlsdl --main Base2D -D windowSize=320x568
 popd
 
 echo "Packing content..."
