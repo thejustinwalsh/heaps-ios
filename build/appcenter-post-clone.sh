@@ -24,9 +24,9 @@ if [ ! -z "${APPCENTER_TRIGGER}" ]; then
     popd
     
     echo "Linking Haxelib Dependencies"
-    haxelib dev heaps "${APPCENTER_SOURCE_DIRECTORY}/build/iOS/deps/heaps"
-    haxelib dev hlsdl "${APPCENTER_SOURCE_DIRECTORY}/build/iOS/deps/hashlink/libs/sdl"
-    haxelib dev hlopenal "${APPCENTER_SOURCE_DIRECTORY}/build/iOS/deps/hashlink/libs/openal"
+    haxelib dev heaps "${APPCENTER_SOURCE_DIRECTORY}/build/deps/heaps"
+    haxelib dev hlsdl "${APPCENTER_SOURCE_DIRECTORY}/build/deps/hashlink/libs/sdl"
+    haxelib dev hlopenal "${APPCENTER_SOURCE_DIRECTORY}/build/deps/hashlink/libs/openal"
 
     echo "Installing Haxelib Additional Dependencies"
     haxelib install hashlink
