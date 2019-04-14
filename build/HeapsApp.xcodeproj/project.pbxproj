@@ -519,7 +519,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "pushd $SRCROOT\n\nrm -rf ./src\nmkdir ./src\n\necho \"Generating native code...\"\npushd src\nhaxe -v --hl HeapsApp.c -p ../../ -p ../../src -L heaps -L hlsdl --main Base2D  -D windowSize=320x568\npopd\n\necho \"Packing content...\"\nhaxe -lib heaps -main hxd.fmt.pak.Build -hl build-pak.hl\nhl build-pak.hl -res ../res -out ../res\n";
+			shellScript = "pushd $SRCROOT\nsh appcenter-pre-build.sh\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
