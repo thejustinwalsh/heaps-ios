@@ -1,0 +1,2 @@
+build/**/*.sh linguist-generated=true
+build/deps linguist-vendored=true
